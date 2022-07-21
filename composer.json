@@ -1,6 +1,6 @@
 {
     "name": "dominicwatts/nosubscribeemail",
-    "description": "No welcome email",
+    "description": "Magento 2 Disable subscribe confirmation email",
     "type": "magento2-module",
     "license": "GPL-3.0",
     "version": "1.0.0",

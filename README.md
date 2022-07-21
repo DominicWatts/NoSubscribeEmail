@@ -8,6 +8,6 @@
 
 [![php-cs-fixer](https://github.com/DominicWatts/NoSubscribeEmail/actions/workflows/phpcsfixer.yml/badge.svg)](https://github.com/DominicWatts/NoSubscribeEmail/actions/workflows/phpcsfixer.yml)
 
-Disable welcome email
+Magento 2 Disable subscribe confirmation email
 
 Stores > Configuration > Pixie Media > No Subscribe Email
