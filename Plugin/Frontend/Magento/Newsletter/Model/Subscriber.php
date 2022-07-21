@@ -35,9 +35,8 @@ class Subscriber
     public function beforeSendConfirmationSuccessEmail(
         \Magento\Newsletter\Model\Subscriber $subject
     ) {
-        if (!$this->_scopeConfig->isSetFlag(self::XML_IS_DISABLED, ScopeInterface::SCOPE_STORE)) {
-            return;
+        if ($this->_scopeConfig->isSetFlag(self::XML_IS_DISABLED, ScopeInterface::SCOPE_STORE)) {
+            return $subject->setImportMode(true);
         }
-        return $subject->setImportMode(true);
     }
 }
