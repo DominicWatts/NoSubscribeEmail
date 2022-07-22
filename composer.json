@@ -1,9 +1,9 @@
 {
     "name": "dominicwatts/nosubscribeemail",
-    "description": "No welcome email",
+    "description": "Magento 2 Disable subscribe confirmation email",
     "type": "magento2-module",
     "license": "GPL-3.0",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         {
             "name": "Dominic Watts",
@@ -20,7 +20,8 @@
     "require": {
         "magento/framework": "*",
         "php": ">=7.1.0",
-        "magento/module-store": "*"
+        "magento/module-store": "*",
+        "magento/module-newsletter": "*"
     },
     "autoload": {
         "files": [
